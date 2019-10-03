@@ -28,7 +28,15 @@ Self note: Understand more about where the set client is being set to.
 
 * ex. about page
 
+1. How are `onMount` & `onDestroy` affected by Sapper's SSR?
+
 ## Summary
 
 To many things to parse right now. What am I missing?
+
+## Further discovery
+
+https://github.com/joshleblanc/sapper-apollo-example
+
+https://github.com/sveltejs/sapper/issues/647
 
