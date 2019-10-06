@@ -1,6 +1,6 @@
 # Sapper Svelte Apollo Demo
 
-This is a welcome change of implementation as compared to hooks/render props. Very clean. Thank you.
+A really nice way to query GraphQL APIs in Sapper.
 
 ## Status:
 
