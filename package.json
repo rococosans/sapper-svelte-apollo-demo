@@ -1,22 +1,14 @@
 {
   "name": "sapper-svelte-apollo-demo",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rococosans/sapper-svelte-apollo-demo.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rococosans/sapper-svelte-apollo-demo/issues"
-  },
   "homepage": "https://github.com/rococosans/sapper-svelte-apollo-demo#readme",
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run frontend\" --names \"⚙️,💻\" --prefix name",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "test": "echo \"No tests specified\" && exit"
+  },
   "dependencies": {
     "concurrently": "^5.0.0"
   }

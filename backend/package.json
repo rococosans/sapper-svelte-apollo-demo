@@ -1,0 +1,37 @@
+{
+  "name": "fullstack_starter_backend",
+  "version": "0.0.1",
+  "description": "backend",
+  "main": "sever/Server_node.js",
+  "author": "Jamey Gleason",
+  "license": "ISC",
+  "scripts": {
+    "dev": "backpack",
+    "test": "echo \"No tests specified\" && exit"
+  },
+  "dependencies": {
+    "apollo-server": "^2.7.0",
+    "apollo-server-express": "^2.7.0",
+    "backpack-core": "^0.8.4",
+    "cors": "^2.8.5",
+    "date-fns": "^2.0.0-beta.3",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "graphql": "^14.4.2",
+    "graphql-tag": "^2.10.1",
+    "graphql-tools": "^4.0.5",
+    "lodash": "^4.17.11",
+    "lowdb": "^1.0.0",
+    "node-fetch": "^2.6.0",
+    "slugify": "^1.3.4",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "babel-plugin-inline-import": "^3.0.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "extra-watch-webpack-plugin": "^1.0.3",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "prettier": "^1.16.4"
+  }
+}
