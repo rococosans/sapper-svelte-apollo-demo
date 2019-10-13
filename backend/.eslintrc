@@ -1,0 +1,101 @@
+{
+  "extends": [
+    "airbnb",
+    "prettier"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "experimentalDecorators": true,
+      "jsx": true,
+      "impliedStrict": true,
+      "classes": true
+    }
+  },
+  "env": {
+    "node": true
+  },
+  "plugins": [
+    "prettier"
+  ],
+  "globals": {
+		"jest": true,
+		"test": true,
+		"expect": true
+	},
+	"settings": {
+		"import/no-unresolved": 2,
+		"import/resolver": {
+			"node": {
+				"moduleDirectory": ["node_modules", "/"],
+			},
+			"babel-module": {
+				"root": ["./"]
+			}
+		}
+	},
+  "rules": {
+    "camelcase": ["error",
+      {
+        "properties": "never",
+        "allow": [
+          "^Server_"
+        ]
+      }
+    ],
+    "import/no-extraneous-dependencies": 0,
+    "import/prefer-default-export": 0,
+    "linebreak-style": ["error", "unix"],
+    "no-bitwise": ["error", {
+      "allow": ["~"]
+    }],
+    "no-console": "off",
+    "no-param-reassign": [
+      2,
+      {
+        "props": false
+      }
+    ],
+    "no-unused-vars": [
+      1,
+      {
+        "argsIgnorePattern": "res|next|^err|parent|args|ctx|info|^keys"
+      }
+    ],
+    "no-restricted-syntax": [0, "ForOfStatement"],
+    "no-underscore-dangle": [2, {
+      "allow": [
+        "_id",
+        "_keys"
+      ]
+    }],
+    "radix": ["error", "as-needed"],
+    "semi": ["error", "never"],
+    "no-shadow": [2, {
+      "hoist": "all",
+      "allow": [
+        "resolve",
+        "reject",
+        "done",
+        "next",
+        "err",
+        "error"
+      ]
+    }],
+    "quotes": [2, "single", {
+			"avoidEscape": true,
+			"allowTemplateLiterals": true
+    }],
+    "prettier/prettier": ["error", {
+      "trailingComma": "es5",
+      "semi": false,
+			"singleQuote": true,
+			"bracketSpacing": true,
+			"printWidth": 90,
+			"tabWidth": 2,
+			"useTabs": false
+		}],
+	}
+}
