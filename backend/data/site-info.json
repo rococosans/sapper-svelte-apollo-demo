@@ -1,0 +1,12 @@
+{
+  "site-info": {
+    "title": "Darn good eatin'",
+    "brand_color": "#ff3e00",
+    "hero_img": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+    "collection": [
+      "https://unsplash.com/s/photos/restaurant",
+      "https://unsplash.com/photos/I79Pgmhmy5M",
+      "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
+    ]
+  }
+}
