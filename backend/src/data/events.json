@@ -1,0 +1,43 @@
+{
+  "events": [
+    {
+      "user_id": null,
+      "name": "Incubus at the ampitheater",
+      "type": "CONCERT",
+      "startsAt": "9p",
+      "endsAt": "12p",
+      "venue": "Ampitheater",
+      "minAgeRestriction": 0,
+      "performers": ["Incubus"],
+      "speakers": [],
+      "workshops": [],
+      "performingBands": ["Incubus"]
+    },
+    {
+      "user_id": null,
+      "name": "Google IO",
+      "type": "CONFERENCE",
+      "startsAt": "9a",
+      "endsAt": "9p",
+      "venue": "Google Ampitheater",
+      "minAgeRestriction": 0,
+      "performers": ["Googlers"],
+      "speakers": ["John", "Paul", "George", "Ringo"],
+      "workshops": [],
+      "performingBands": []
+    },
+    {
+      "user_id": null,
+      "name": "Bonaroo",
+      "type": "FESTIVAL",
+      "startsAt": "12p",
+      "endsAt": "12a",
+      "venue": "A field in Tennessee",
+      "minAgeRestriction": 18,
+      "performers": ["Googlers"],
+      "speakers": [],
+      "workshops": [],
+      "performingBands": ["BISHOP BRIGGS", "CHILDISH GAMBINO", "GRIZ"]
+    }
+  ]
+}

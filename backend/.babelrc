@@ -8,23 +8,6 @@
         },
         "debug": false
       }
-    ], 
-  ],
-  "plugins": [
-    ["babel-plugin-inline-import", {
-      "extensions": [
-        ".graphql"
-      ]
-    }],
-    [
-      "babel-plugin-module-resolver", 
-      {
-        "root": ["./"],
-				"alias": {
-					"api": "./api",
-					"data": "../data",
-				}
-      }
     ]
   ]
 }

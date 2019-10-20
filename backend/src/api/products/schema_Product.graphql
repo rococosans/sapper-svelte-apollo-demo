@@ -1,0 +1,39 @@
+extend type Mutation {
+  createProduct(input: ProductInput!): Product!
+  updateProduct(_id: ID!, input: ProductInput!): Product!
+  deleteProduct(_id: ID!): Product!
+}
+
+extend type Query {
+  product(_id: ID!): Product!
+  products(skip: Int, first: Int, filter: String, orderBy: String): [Product]!
+  productsByUser(user_id: ID!, skip: Int, first: Int, orderBy: String): [Product]!
+}
+
+enum Status {
+  IN_STOCK
+  OUT_OF_STOCK
+  DISCONTINUED
+  NEW_RELEASE
+  ON_SALE
+  SEASONAL
+  STANDARD
+  PREMIUM
+}
+
+type Product {
+  _id: ID
+  user_id: ID
+  name: String!
+  qty: Int
+  status: [Status]
+  createdAt: String
+  updatedAt: String
+  user: User!
+}
+
+input ProductInput {
+  user_id: ID!
+  name: String!
+  qty: Int
+}

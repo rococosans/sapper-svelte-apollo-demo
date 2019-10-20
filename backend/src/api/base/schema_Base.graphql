@@ -1,0 +1,8 @@
+type Query {
+  hello: String
+}
+
+type Mutation {
+  resetDb: String
+  seedDb: String
+}
