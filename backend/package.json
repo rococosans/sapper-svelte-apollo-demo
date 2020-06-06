@@ -10,7 +10,7 @@
     "serve": "node dist/app.js"
   },
   "dependencies": {
-    "apollo-server-express": "^2.9.6",
+    "apollo-server-express": "^2.14.2",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
     "cors": "^2.8.5",
